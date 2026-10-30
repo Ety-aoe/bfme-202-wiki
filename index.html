@@ -1779,4 +1779,828 @@ document.getElementById('db').textContent=JSON.stringify(DB);
 DB.meta.wiki_version='3.16.2';DB.meta.version='3.16.2';DB.meta.wiki_build='v3.16.2-patch980-fr-translation';document.getElementById('db').textContent=JSON.stringify(DB);window.__PATCH980_READY__=true;
 render();
 })();
-</script></body></html>
+</script><!-- FEEDBACK_317_START --><style>.feedback-banner{margin:16px 0;padding:16px;border:1px solid var(--line);border-radius:12px}.feedback-banner table,.feedback-xp table{width:100%;text-align:left;border-collapse:collapse}.feedback-banner th,.feedback-banner td,.feedback-xp th,.feedback-xp td{padding:8px;border-bottom:1px solid var(--line)}.feedback-banner details{margin:14px 0}.feedback-banner .id{overflow-wrap:anywhere}.feedback-recruit strong{font-size:1.6rem}</style><script id="feedback-data" type="application/json">{
+  "source": "User supplied ini.zip (August 2026); pre-9.8.0 source, not independently verified against 9.8.0 INI",
+  "banners": {
+    "GondorInfantryBanner": {
+      "weapon": "GondorSword",
+      "id": "GondorInfantryBanner",
+      "health": 200,
+      "speed": 60,
+      "armor": "SoldierArmor",
+      "upgraded_armor": "SoldierHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/goodfaction/units/men/gondorinfantrybanner.ini"
+      ]
+    },
+    "RohanBanner": {
+      "weapon": "GondorSword",
+      "id": "RohanBanner",
+      "health": 100,
+      "speed": 60,
+      "armor": "ArcherEliteArmor",
+      "upgraded_armor": "ArcherEliteHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/goodfaction/units/men/rohanbanner.ini"
+      ]
+    },
+    "GondorArcherBanner": {
+      "weapon": "GondorSword",
+      "id": "GondorArcherBanner",
+      "health": 200,
+      "speed": 60,
+      "armor": "SoldierArmor",
+      "upgraded_armor": "SoldierHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/goodfaction/units/men/gondorinfantrybanner.ini",
+        "object/goodfaction/units/men/gondorinfantrybanner.ini"
+      ]
+    },
+    "GondorRangerBanner": {
+      "weapon": "GondorSword",
+      "id": "GondorRangerBanner",
+      "health": 200,
+      "speed": 60,
+      "armor": "SoldierArmor",
+      "upgraded_armor": "SoldierHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/goodfaction/units/men/gondorinfantrybanner.ini",
+        "object/goodfaction/units/men/gondorinfantrybanner.ini"
+      ]
+    },
+    "GondorCavalryBanner": {
+      "weapon": "GondorSword",
+      "id": "GondorCavalryBanner",
+      "health": 200,
+      "speed": 100,
+      "armor": "KnightArmor",
+      "upgraded_armor": "KnightHeavyArmor",
+      "crushable_level": 3,
+      "crush_revenge_weapon": null,
+      "source_files": [
+        "object/goodfaction/units/men/gondorcavalrybanner.ini"
+      ]
+    },
+    "RohanRohirrimBanner": {
+      "weapon": "GondorSword",
+      "id": "RohanRohirrimBanner",
+      "health": 100,
+      "speed": 60,
+      "armor": "ArcherEliteArmor",
+      "upgraded_armor": "ArcherEliteHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/goodfaction/units/men/rohanbanner.ini",
+        "object/goodfaction/units/men/rohanbanner.ini"
+      ]
+    },
+    "ElvenBanner": {
+      "weapon": "ElvenWarriorSword",
+      "id": "ElvenBanner",
+      "health": 300,
+      "speed": 60,
+      "armor": "LorienWarriorArmor",
+      "upgraded_armor": "LorienWarriorHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/goodfaction/units/elven/elvenbanner.ini"
+      ]
+    },
+    "ElvenLorienArcherBanner": {
+      "weapon": "ElvenWarriorSword",
+      "id": "ElvenLorienArcherBanner",
+      "health": 300,
+      "speed": 60,
+      "armor": "LorienWarriorArmor",
+      "upgraded_armor": "LorienWarriorHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/goodfaction/units/elven/elvenbanner.ini",
+        "object/goodfaction/units/elven/elvenbanner.ini"
+      ]
+    },
+    "ElvenMirkwoodArcherBanner": {
+      "weapon": "GondorSword",
+      "id": "ElvenMirkwoodArcherBanner",
+      "health": 200,
+      "speed": 60,
+      "armor": "MirkwoodArcherArmor",
+      "upgraded_armor": null,
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/goodfaction/units/elven/elvenmirkwoodarcherbanner.ini"
+      ]
+    },
+    "ElvenRivendellLancerBanner": {
+      "weapon": "ElvenWarriorSword",
+      "id": "ElvenRivendellLancerBanner",
+      "health": 300,
+      "speed": 120,
+      "armor": "RivendellLancerArmor",
+      "upgraded_armor": "RivendellLancerHeavyArmor",
+      "crushable_level": 3,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/goodfaction/units/elven/elvenrivendelllancerbanner.ini"
+      ]
+    },
+    "ElvenRivendellArcherBanner": {
+      "weapon": "ElvenWarriorSword",
+      "id": "ElvenRivendellArcherBanner",
+      "health": 300,
+      "speed": 120,
+      "armor": "RivendellLancerArmor",
+      "upgraded_armor": "RivendellLancerHeavyArmor",
+      "crushable_level": 3,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/goodfaction/units/elven/elvenrivendelllancerbanner.ini",
+        "object/goodfaction/units/elven/elvenrivendelllancerbanner.ini"
+      ]
+    },
+    "DwarvenBanner": {
+      "weapon": "DwarvenGuardianAxe",
+      "id": "DwarvenBanner",
+      "health": 280,
+      "speed": 55,
+      "armor": "DwarvenGuardianArmor",
+      "upgraded_armor": "DwarvenGuardianHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/goodfaction/units/dwarven/dwarvenbanner.ini"
+      ]
+    },
+    "DwarvenPhalanxBanner": {
+      "weapon": "DwarvenPhalanxPike",
+      "id": "DwarvenPhalanxBanner",
+      "health": 280,
+      "speed": 55,
+      "armor": "DwarvenPikemenArmor",
+      "upgraded_armor": "DwarvenPikemenHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/goodfaction/units/dwarven/dwarvenbanner.ini",
+        "object/goodfaction/units/dwarven/dwarvenbanner.ini"
+      ]
+    },
+    "MenofDaleBanner": {
+      "weapon": "DwarvenGuardianAxe",
+      "id": "MenofDaleBanner",
+      "health": 280,
+      "speed": 55,
+      "armor": "DwarvenGuardianArmor",
+      "upgraded_armor": "DwarvenGuardianHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/goodfaction/units/dwarven/dwarvenbanner.ini",
+        "object/goodfaction/units/dwarven/dwarvenbanner.ini"
+      ]
+    },
+    "IsengardBannerOrc": {
+      "weapon": "IsengardBannerSword",
+      "id": "IsengardBannerOrc",
+      "health": 200,
+      "speed": 55,
+      "armor": "UrukHaiArmor",
+      "upgraded_armor": "UrukHaiHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/isengard/isengardbannerorc.ini"
+      ]
+    },
+    "IsengardCrossbowBanner": {
+      "weapon": "IsengardBannerSword",
+      "id": "IsengardCrossbowBanner",
+      "health": 200,
+      "speed": 55,
+      "armor": "UrukHaiArmor",
+      "upgraded_armor": "UrukHaiHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/isengard/isengardbannerorc.ini",
+        "object/evilfaction/units/isengard/isengardbannerorc.ini"
+      ]
+    },
+    "IsengardWildmanBanner": {
+      "weapon": "IsengardBannerSword",
+      "id": "IsengardWildmanBanner",
+      "health": 200,
+      "speed": 55,
+      "armor": "UrukHaiArmor",
+      "upgraded_armor": "UrukHaiHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/isengard/isengardbannerorc.ini",
+        "object/evilfaction/units/isengard/isengardbannerorc.ini"
+      ]
+    },
+    "IsengardWildmanAxeBanner": {
+      "weapon": "IsengardBannerSword",
+      "id": "IsengardWildmanAxeBanner",
+      "health": 200,
+      "speed": 55,
+      "armor": "UrukHaiArmor",
+      "upgraded_armor": "UrukHaiHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/isengard/isengardbannerorc.ini",
+        "object/evilfaction/units/isengard/isengardbannerorc.ini"
+      ]
+    },
+    "IsengardWargPackBanner": {
+      "weapon": "WargPackWeapon",
+      "id": "IsengardWargPackBanner",
+      "health": 275,
+      "speed": 110,
+      "armor": "WargPackArmor",
+      "upgraded_armor": null,
+      "crushable_level": 3,
+      "crush_revenge_weapon": null,
+      "source_files": [
+        "object/evilfaction/units/isengard/isengardwargpack.ini",
+        "object/evilfaction/units/isengard/isengardwargpack.ini"
+      ]
+    },
+    "IsengardWargRiderBanner": {
+      "weapon": "IsengardBannerSword",
+      "id": "IsengardWargRiderBanner",
+      "health": 200,
+      "speed": 100,
+      "armor": "WargArmor",
+      "upgraded_armor": "WargHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/isengard/isengardwargriderbanner.ini"
+      ]
+    },
+    "MordorBannerOrcNew": {
+      "weapon": "MordorWarriorAxe",
+      "id": "MordorBannerOrcNew",
+      "health": 120,
+      "speed": 55,
+      "armor": "SoldierArmor",
+      "upgraded_armor": null,
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/mordor/mordorbannerorc.ini"
+      ]
+    },
+    "MordorOrcArcherBanner": {
+      "weapon": "MordorWarriorAxe",
+      "id": "MordorOrcArcherBanner",
+      "health": 120,
+      "speed": 55,
+      "armor": "SoldierArmor",
+      "upgraded_armor": null,
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/mordor/mordorbannerorc.ini",
+        "object/evilfaction/units/mordor/mordorbannerorc.ini"
+      ]
+    },
+    "MordorBlackOrcBanner": {
+      "weapon": "MordorWarriorAxe",
+      "id": "MordorBlackOrcBanner",
+      "health": 120,
+      "speed": 55,
+      "armor": "SoldierArmor",
+      "upgraded_armor": null,
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/mordor/mordorbannerorc.ini",
+        "object/evilfaction/units/mordor/mordorbannerorc.ini"
+      ]
+    },
+    "MordorCorsairBanner": {
+      "weapon": "CorsairSword",
+      "id": "MordorCorsairBanner",
+      "health": 200,
+      "speed": 65,
+      "armor": "CorsairsArmor",
+      "upgraded_armor": null,
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/mordor/mordorcorsairbanner.ini"
+      ]
+    },
+    "MordorEasterlingBanner": {
+      "weapon": "MordorWarriorAxe",
+      "id": "MordorEasterlingBanner",
+      "health": 120,
+      "speed": 55,
+      "armor": "SoldierArmor",
+      "upgraded_armor": null,
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/mordor/mordorbannerorc.ini",
+        "object/evilfaction/units/mordor/mordorbannerorc.ini"
+      ]
+    },
+    "MordorBannerOrc": {
+      "weapon": "MordorWarriorAxe",
+      "id": "MordorBannerOrc",
+      "health": 120,
+      "speed": 55,
+      "armor": "SoldierArmor",
+      "upgraded_armor": null,
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/mordor/mordorbannerorc.ini"
+      ]
+    },
+    "MordorHaradrimRiderBanner": {
+      "weapon": "HaradrimLancerLance",
+      "id": "MordorHaradrimRiderBanner",
+      "health": 350,
+      "speed": 110,
+      "armor": "HaradrimRiderArmor",
+      "upgraded_armor": "HaradrimRiderHeavyArmor",
+      "crushable_level": 3,
+      "crush_revenge_weapon": null,
+      "source_files": [
+        "object/evilfaction/units/mordor/haradrimriderbanner.ini"
+      ]
+    },
+    "WildBannerGoblin": {
+      "weapon": "GoblinFighterSword",
+      "id": "WildBannerGoblin",
+      "health": 120,
+      "speed": 70,
+      "armor": "SoldierArmor",
+      "upgraded_armor": null,
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/wild/wildbannergoblin.ini"
+      ]
+    },
+    "WildGoblinArcherBanner": {
+      "weapon": "GoblinFighterSword",
+      "id": "WildGoblinArcherBanner",
+      "health": 120,
+      "speed": 70,
+      "armor": "SoldierArmor",
+      "upgraded_armor": null,
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/wild/wildbannergoblin.ini",
+        "object/evilfaction/units/wild/wildbannergoblin.ini"
+      ]
+    },
+    "WildBannerSpiderling": {
+      "weapon": "WildSpiderlingMandibles",
+      "id": "WildBannerSpiderling",
+      "health": 275,
+      "speed": 110,
+      "armor": "WildSpiderlingArmor",
+      "upgraded_armor": null,
+      "crushable_level": 2,
+      "crush_revenge_weapon": null,
+      "source_files": [
+        "object/evilfaction/units/wild/wildspiderling.ini",
+        "object/evilfaction/units/wild/wildspiderling.ini",
+        "object/evilfaction/units/wild/wildspiderling.ini"
+      ]
+    },
+    "WildBannerSpiderRider": {
+      "weapon": "WildSpiderlingMandibles",
+      "id": "WildBannerSpiderRider",
+      "health": 120,
+      "speed": 100,
+      "armor": "WildSpiderRiderArmor",
+      "upgraded_armor": null,
+      "crushable_level": 3,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/wild/wildbannerspiderrider.ini"
+      ]
+    },
+    "WildBannerMarauder": {
+      "weapon": "WildMarauderPike",
+      "id": "WildBannerMarauder",
+      "health": 120,
+      "speed": 120,
+      "armor": "WildMarauderArmor",
+      "upgraded_armor": "WildMarauderHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "AntiCavalryHillTrollMarauderCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/wild/wildbannermarauder.ini"
+      ]
+    },
+    "WildMarauderSwordBanner": {
+      "weapon": "MarauderSword",
+      "id": "WildMarauderSwordBanner",
+      "health": 650,
+      "speed": 55,
+      "armor": "MarauderSwordArmor",
+      "upgraded_armor": "MarauderSwordHeavyArmor",
+      "crushable_level": 3,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/wild/wildbannermarauderswords.ini"
+      ]
+    },
+    "AngmarThrallMasterOrcBanner": {
+      "weapon": "ThrallMasterClub",
+      "id": "AngmarThrallMasterOrcBanner",
+      "health": 400,
+      "speed": 90,
+      "armor": "ThrallMasterArmor",
+      "upgraded_armor": null,
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/angmar/angmarthrallmasterbanner.ini",
+        "object/evilfaction/units/angmar/angmarthrallmasterbanner.ini"
+      ]
+    },
+    "AngmarThrallMasterSpearmenBanner": {
+      "weapon": "ThrallMasterClub",
+      "id": "AngmarThrallMasterSpearmenBanner",
+      "health": 400,
+      "speed": 90,
+      "armor": "ThrallMasterArmor",
+      "upgraded_armor": null,
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/angmar/angmarthrallmasterbanner.ini",
+        "object/evilfaction/units/angmar/angmarthrallmasterbanner.ini"
+      ]
+    },
+    "AngmarThrallMasterWolfBanner": {
+      "weapon": "ThrallMasterClub",
+      "id": "AngmarThrallMasterWolfBanner",
+      "health": 400,
+      "speed": 150,
+      "armor": "ThrallMasterArmor",
+      "upgraded_armor": null,
+      "crushable_level": 3,
+      "crush_revenge_weapon": null,
+      "source_files": [
+        "object/evilfaction/units/angmar/angmarthrallmasterbanner.ini"
+      ]
+    },
+    "AngmarThrallMasterSlingerBanner": {
+      "weapon": "ThrallMasterClub",
+      "id": "AngmarThrallMasterSlingerBanner",
+      "health": 400,
+      "speed": 90,
+      "armor": "ThrallMasterArmor",
+      "upgraded_armor": null,
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/angmar/angmarthrallmasterbanner.ini",
+        "object/evilfaction/units/angmar/angmarthrallmasterbanner.ini"
+      ]
+    },
+    "AngmarInfantryBanner": {
+      "weapon": "AngmarBannerCarrierSword",
+      "id": "AngmarInfantryBanner",
+      "health": 520,
+      "speed": 55,
+      "armor": "AngmarDDArmor",
+      "upgraded_armor": "AngmarDDHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/angmar/angmarbanner.ini"
+      ]
+    },
+    "AngmarDarkRangerBanner": {
+      "weapon": "AngmarBannerCarrierSword",
+      "id": "AngmarDarkRangerBanner",
+      "health": 520,
+      "speed": 55,
+      "armor": "AngmarDDArmor",
+      "upgraded_armor": "AngmarDDHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/angmar/angmarbanner.ini",
+        "object/evilfaction/units/angmar/angmarbanner.ini"
+      ]
+    },
+    "AngmarBannerDireSnowTroll": {
+      "weapon": "DireWolfWeapon",
+      "id": "AngmarBannerDireSnowTroll",
+      "health": 275,
+      "speed": 110,
+      "armor": "AngmarDireWolfArmor",
+      "upgraded_armor": "AngmarDireWolfHeavyArmor",
+      "crushable_level": 3,
+      "crush_revenge_weapon": null,
+      "source_files": [
+        "object/evilfaction/units/angmar/angmarbannerdirewolf.ini"
+      ]
+    },
+    "AngmarBannerSnowTroll": {
+      "weapon": "RohanRohirrimSpear",
+      "id": "AngmarBannerSnowTroll",
+      "health": 1000,
+      "speed": 95,
+      "armor": "SnowTrollArmor",
+      "upgraded_armor": "SnowTrollHeavyArmor",
+      "crushable_level": 3,
+      "crush_revenge_weapon": null,
+      "source_files": [
+        "object/evilfaction/units/angmar/angmarbannersnowtroll.ini"
+      ]
+    },
+    "AngmarBannerHillTroll": {
+      "weapon": "WildMarauderPike",
+      "id": "AngmarBannerHillTroll",
+      "health": 800,
+      "speed": 60,
+      "armor": "HillTrollArmor",
+      "upgraded_armor": "HillTrollHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "AntiCavalryHillTrollMarauderCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/angmar/angmarbannerhilltroll.ini"
+      ]
+    },
+    "AngmarNecromancerBanner": {
+      "weapon": "AngmarNecromancerStaff",
+      "id": "AngmarNecromancerBanner",
+      "health": 750,
+      "speed": 55,
+      "armor": "NecromancerArmor",
+      "upgraded_armor": null,
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/angmar/angmarnecromancerbanner.ini"
+      ]
+    },
+    "RohanElvenWarriorBanner": {
+      "weapon": "ElvenWarriorSword",
+      "id": "RohanElvenWarriorBanner",
+      "health": 300,
+      "speed": 60,
+      "armor": "LorienWarriorArmor",
+      "upgraded_armor": "LorienWarriorHeavyArmor",
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/goodfaction/units/elven/elvenbanner.ini",
+        "object/goodfaction/units/elven/elvenbanner.ini"
+      ]
+    },
+    "RohanHobbitBanner": {
+      "weapon": "HobbitStick",
+      "id": "RohanHobbitBanner",
+      "health": 140,
+      "speed": 55,
+      "armor": "HobbitArmor",
+      "upgraded_armor": null,
+      "crushable_level": 0,
+      "crush_revenge_weapon": "RangedInfantryCrushRevenge",
+      "source_files": [
+        "object/goodfaction/generic/hobbits.ini",
+        "object/goodfaction/generic/hobbits.ini"
+      ]
+    },
+    "AngmarThrallMasterHillmenBanner": {
+      "weapon": "ThrallMasterClub",
+      "id": "AngmarThrallMasterHillmenBanner",
+      "health": 400,
+      "speed": 90,
+      "armor": "ThrallMasterArmor",
+      "upgraded_armor": null,
+      "crushable_level": 0,
+      "crush_revenge_weapon": "BasicInfantryCrushRevenge",
+      "source_files": [
+        "object/evilfaction/units/angmar/angmarthrallmasterbanner.ini",
+        "object/evilfaction/units/angmar/angmarthrallmasterbanner.ini"
+      ]
+    }
+  },
+  "horde_banners": {
+    "GondorFighterHorde": [
+      "GondorInfantryBanner"
+    ],
+    "RohanSpearmenHorde": [
+      "RohanBanner"
+    ],
+    "GondorTowerShieldGuardHorde": [
+      "GondorInfantryBanner"
+    ],
+    "GondorArcherHorde": [
+      "GondorArcherBanner"
+    ],
+    "GondorRangerHorde": [
+      "GondorRangerBanner"
+    ],
+    "GondorKnightHorde": [
+      "GondorCavalryBanner"
+    ],
+    "RohanRohirrimHorde": [
+      "RohanRohirrimBanner"
+    ],
+    "ElvenLorienWarriorHorde": [
+      "ElvenBanner"
+    ],
+    "ElvenLorienArcherHorde": [
+      "ElvenLorienArcherBanner"
+    ],
+    "ElvenMithlondSentryHorde": [
+      "ElvenBanner"
+    ],
+    "ElvenMirkwoodArcherHorde": [
+      "ElvenMirkwoodArcherBanner"
+    ],
+    "ElvenRivendellLancerHorde": [
+      "ElvenRivendellLancerBanner"
+    ],
+    "ElvenRivendellArcherHorde": [
+      "ElvenRivendellArcherBanner"
+    ],
+    "DwarvenGuardianHorde": [
+      "DwarvenBanner"
+    ],
+    "DwarvenPhalanxHorde": [
+      "DwarvenPhalanxBanner"
+    ],
+    "DwarvenAxeThrowerHorde": [
+      "DwarvenBanner"
+    ],
+    "DwarvenMenOfDaleHorde": [
+      "MenofDaleBanner"
+    ],
+    "IsengardFighterHorde": [
+      "IsengardBannerOrc"
+    ],
+    "IsengardUrukCrossbowHorde": [
+      "IsengardCrossbowBanner"
+    ],
+    "IsengardPikemanHorde": [
+      "IsengardBannerOrc"
+    ],
+    "IsengardWildmanHorde": [
+      "IsengardWildmanBanner"
+    ],
+    "IsengardWildmanAxeHorde": [
+      "IsengardWildmanAxeBanner"
+    ],
+    "IsengardWargPackHorde": [
+      "IsengardWargPackBanner"
+    ],
+    "IsengardWargRiderHorde": [
+      "IsengardWargRiderBanner"
+    ],
+    "MordorFighterHorde": [
+      "MordorBannerOrcNew"
+    ],
+    "MordorArcherHorde": [
+      "MordorOrcArcherBanner"
+    ],
+    "MordorBlackOrcHorde": [
+      "MordorBlackOrcBanner"
+    ],
+    "MordorCorsairsOfUmbarHorde": [
+      "MordorCorsairBanner"
+    ],
+    "MordorEasterlingHorde": [
+      "MordorEasterlingBanner"
+    ],
+    "MordorHaradrimArcherHorde": [
+      "MordorBannerOrc"
+    ],
+    "MordorHaradrimRiderHorde": [
+      "MordorHaradrimRiderBanner"
+    ],
+    "GoblinFighterHorde": [
+      "WildBannerGoblin"
+    ],
+    "GoblinArcherHorde": [
+      "WildGoblinArcherBanner"
+    ],
+    "WildSpiderlingHorde": [
+      "WildBannerSpiderling"
+    ],
+    "GoblinSpiderRiderHorde": [
+      "WildBannerSpiderRider"
+    ],
+    "WildMarauderHorde": [
+      "WildBannerMarauder"
+    ],
+    "WildMarauderSwordHorde": [
+      "WildMarauderSwordBanner"
+    ],
+    "AngmarOrcWarriors": [
+      "AngmarThrallMasterOrcBanner"
+    ],
+    "AngmarRhudaurSpearmen": [
+      "AngmarThrallMasterSpearmenBanner"
+    ],
+    "AngmarWolfRiders": [
+      "AngmarThrallMasterWolfBanner"
+    ],
+    "AngmarRhudaurSlingers": [
+      "AngmarThrallMasterSlingerBanner"
+    ],
+    "AngmarDarkDunedainHorde": [
+      "AngmarInfantryBanner"
+    ],
+    "AngmarDarkRangerHorde": [
+      "AngmarDarkRangerBanner"
+    ],
+    "AngmarDireWolfHorde": [
+      "AngmarBannerDireSnowTroll"
+    ],
+    "AngmarSnowTrollHorde": [
+      "AngmarBannerSnowTroll"
+    ],
+    "AngmarHillTrollHorde": [
+      "AngmarBannerHillTroll"
+    ],
+    "AngmarNecromancerHorde": [
+      "AngmarNecromancerBanner"
+    ],
+    "RohanPeasantHorde": [
+      "RohanBanner"
+    ],
+    "RohanElvenWarriorHorde": [
+      "RohanElvenWarriorBanner"
+    ],
+    "DwarvenHobbitFriendsHordeInn": [
+      "RohanHobbitBanner"
+    ],
+    "MordorBlackOrcHordeInn": [
+      "MordorBannerOrcNew"
+    ],
+    "MordorHaradrimHordeInn": [
+      "MordorBannerOrc"
+    ],
+    "WildCorsairsOfUmbarHordeInn": [
+      "MordorCorsairBanner"
+    ],
+    "AngmarWildmanHordeInn": [
+      "AngmarThrallMasterHillmenBanner"
+    ]
+  },
+  "missing_health": []
+}
+</script><script>/* Feedback additions. Runs after the existing 9.8.0 patch transformations. */
+(()=>{
+ const tr=(fr,en)=>lang==='fr'?fr:en;
+ const F=JSON.parse(document.getElementById('feedback-data').textContent);
+ const black=entityById('MordorBlackRiderHorde');
+ if(black)black.formation_modes=[{id:'standard',name_fr:'Formation standard',name_en:'Standard formation',description_fr:'Formation normale.',description_en:'Normal formation.',modifier:{armor_modifier_pct:0,damage_mult_pct:100,speed_mult_pct:100}}, {id:'wedge',name_fr:'Formation étendue',name_en:'Wedge / spread formation',description_fr:'+10 % dégâts ; ARMOR −11 %. Aucun bonus de vitesse dans les INI disponibles.',description_en:'+10% damage; ARMOR −11%. No speed bonus in the available INI.',note_fr:'Source : MordorBlackRiderHordeSpread / BlackRiderLine, archive INI antérieure à 9.8.0.',note_en:'Source: MordorBlackRiderHordeSpread / BlackRiderLine, pre-9.8.0 INI archive.',modifier:{modifier_id:'BlackRiderLine',armor_modifier_pct:-11,damage_mult_pct:110,speed_mult_pct:100,raw:['DAMAGE_MULT 110%','ARMOR -11%']}}];
+ for(const s of DB.summon_catalog||[])for(const c of s.components||[])if(['RohanMerry_Summoned','RohanPippen_Summoned'].includes(c.object_id))c.speed=50;
+ function xp(e){
+  if(e.entity_type==='Hero'||e.is_minihero)return '';
+  const levels=e.experience_levels||[];
+  const rows=levels.map(p=>`<tr><td>${fmt(p.rank)}</td><td>${p.required_experience==null?'—':fmt(p.required_experience)}</td></tr>`).join('');
+  return `<section class="section feedback-xp"><div class="section-title"><h2>⭐ ${tr('XP requise par niveau','XP required per level')}</h2></div><div class="section-body">${rows?`<table><thead><tr><th>${tr('Niveau','Level')}</th><th>${tr('Seuil d’XP requis','Required XP threshold')}</th></tr></thead><tbody>${rows}</tbody></table><p class="muted">${tr('Seuils RequiredExperience de la base du wiki. Il s’agit de l’XP nécessaire pour atteindre un rang, distincte de l’XP accordée à l’adversaire. Le rang initial conserve sa valeur technique INI.','RequiredExperience thresholds from the wiki database. These are the XP requirements for reaching a rank, separate from XP awarded to an opponent. The starting rank retains its technical INI value.')}</p>`:`<p>${tr('Aucune progression documentée dans les données disponibles.','No progression documented in the available data.')}</p>`}</div></section>`;
+ }
+ function banners(e){
+  const ids=F.horde_banners[e.entity_id];if(!ids?.length)return '';
+  return `<section class="section feedback-banners"><div class="section-title"><h2>🚩 ${tr('Porteur de bannière','Banner carrier')}</h2></div><div class="section-body"><p class="mode-note warn">${tr('Données extraites de l’archive INI d’août 2026. Validation avec les INI 9.8.0 encore nécessaire. Statistiques de base du porteur, indépendantes de celles des soldats.','Extracted from the August 2026 INI archive. Verification against 9.8.0 INI is still required. Base carrier stats, separate from soldier stats.')}</p>${ids.map(id=>{
+   const b=F.banners[id],a=DB.armors[b.armor]||{},up=DB.armors[b.upgraded_armor]||{},w=DB.weapons[b.weapon]||{};
+   const pct=k=>{const n=parseFloat(a[k]??a.DEFAULT);return Number.isFinite(n)?n:null};
+  
+   const rows=[['PV','HP',b.health],['Vitesse','Speed',b.speed],['Arme','Weapon',b.weapon||'—'],['Dégâts de base de l’arme (base wiki)','Base weapon damage (wiki database)',w.Damage??'—'],['Type de dégâts','Damage type',w.DamageType||'—'],['Armure','Armor',b.armor||'—'],['Armure améliorée','Upgraded armor',b.upgraded_armor||'—'],['CrushableLevel','CrushableLevel',b.crushable_level],['Arme de riposte au piétinement','Crush revenge weapon',b.crush_revenge_weapon||'—']];
+   return `<article class="feedback-banner"><h3>${id}</h3><table><tbody>${rows.map(([fr,en,v])=>`<tr><th>${tr(fr,en)}</th><td>${v??'—'}</td></tr>`).join('')}</tbody></table><details><summary>${tr('Résistances : dégâts reçus (%)','Resistances: damage received (%)')}</summary><table><thead><tr><th>Type</th><th>${tr('Base','Base')}</th><th>${tr('Armure améliorée','Upgraded armor')}</th></tr></thead><tbody>${['SLASH','PIERCE','SPECIALIST','CRUSH','CAVALRY','HERO','HERO_RANGED','SIEGE','FLAME','FROST','MAGIC'].map(k=>`<tr><td>${k}</td><td>${pct(k)??'—'}%</td><td>${b.upgraded_armor?(up[k]??up.DEFAULT??'—'):'—'}</td></tr>`).join('')}</tbody></table></details><p>${tr('Les résistances proviennent des profils d’armure du wiki. Survivre à une charge dépend aussi des dégâts et du niveau de piétinement de l’attaquant, des bonus, des PV restants et du nombre d’impacts. CrushableLevel ne suffit pas à conclure à une immunité.','Resistances use the wiki armor profiles. Charge survival also depends on the attacker’s damage and crusher level, bonuses, remaining HP and number of impacts. CrushableLevel alone does not establish immunity.')}</p><details><summary>${tr('Sources INI','INI sources')}</summary>${b.source_files.map(f=>`<div class="id">${f}</div>`).join('')}</details></article>`
+  }).join('')}</div></section>`;
+ }
+ const previous=entity;
+ entity=function(id){const e=entityById(id);let h=previous(id);if(!e)return h;
+ const value=e.build_time_s;
+ const time=`<section class="section feedback-recruit"><div class="section-title"><h2>⏱ ${tr('Temps de recrutement','Recruitment time')}</h2></div><div class="section-body"><strong>${value==null?'—':fmt(value)+' s'}</strong><p class="muted">${tr('Temps de base, hors file d’attente et bonus de production. Pour un héros : recrutement initial, pas résurrection.','Base time, excluding queue and production bonuses. For heroes: initial recruitment, not revival.')}</p></div></section>`;
+ return h+time+xp(e)+banners(e);
+ };
+ DB.meta.wiki_version='3.17.0';
+ render();
+})();
+</script><!-- FEEDBACK_317_END --></body></html>
